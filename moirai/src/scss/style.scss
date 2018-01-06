@@ -28,16 +28,9 @@ $font-family: Kaushan Script;
   .home-inner{
     padding-top:150px;
   }
-  .container{
-    position: relative;
-    margin-right: -420px;
-    margin-top: 180px;
-  }
+
 
   .boton{
-    position: relative;
-    margin-top: 40px;
-    margin-left: 347px;
     opacity:0.7;
   }
   .sentence{
@@ -54,4 +47,14 @@ $font-family: Kaushan Script;
   padding-bottom: 40px;
   border-top: #7c3f62 2px solid;
   border-bottom: #7c3f62 2px solid;
+}
+
+#line{
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+}
+
+#about{
+  opacity: 0.9;
 }
