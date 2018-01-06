@@ -1,0 +1,42 @@
+.logo {
+  font-family: Kaushan Script, cursive; }
+
+.navbar {
+  opacity: 0.7;
+  border-bottom: white 2px solid; }
+
+#home-section {
+  background: url("../img/flower.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .container {
+    position: relative;
+    margin-right: -420px;
+    margin-top: 180px; }
+  #home-section .boton {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 347px;
+    opacity: 0.7; }
+  #home-section .sentence {
+    font-family: Kaushan Script;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 5px 4px rgba(44, 41, 32, 0.7);
+    opacity: 0.9; }
+
+#newsletter {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: #7c3f62 2px solid;
+  border-bottom: #7c3f62 2px solid; }

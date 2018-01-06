@@ -1,0 +1,57 @@
+$dark-overlay: rgba(0,0,0,0.4);
+$font-family: Kaushan Script;
+
+.logo{
+  font-family: $font-family, cursive;
+}
+
+.navbar{
+  opacity:0.7;
+  border-bottom: white 2px solid;
+}
+
+#home-section{
+  background:url('../img/flower.jpeg') no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  min-height:600px;
+
+.dark-overlay{
+    background-color:$dark-overlay;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:600px;
+  }
+
+  .home-inner{
+    padding-top:150px;
+  }
+  .container{
+    position: relative;
+    margin-right: -420px;
+    margin-top: 180px;
+  }
+
+  .boton{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 347px;
+    opacity:0.7;
+  }
+  .sentence{
+  font-family: $font-family;
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 2px 5px 4px rgba(44, 41, 32, 0.7);
+  opacity: 0.9;
+  }
+}
+
+#newsletter{
+  padding-top:40px;
+  padding-bottom: 40px;
+  border-top: #7c3f62 2px solid;
+  border-bottom: #7c3f62 2px solid;
+}
