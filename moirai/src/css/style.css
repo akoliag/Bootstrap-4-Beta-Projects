@@ -96,4 +96,5 @@
   border-bottom: white 2px solid; }
 
 .footer {
-  opacity: 0.9; }
+  opacity: 0.9;
+  border-top: #e9ecef 2px solid; }
