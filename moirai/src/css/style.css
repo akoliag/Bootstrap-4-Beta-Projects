@@ -41,3 +41,59 @@
 
 #about {
   opacity: 0.9; }
+
+.carousel-item {
+  height: 650px; }
+
+.carousel-image-1 {
+  background: url("../img/one.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/two.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/three.jpg");
+  background-size: cover; }
+
+.carousel-image-4 {
+  background: url("../img/four.jpeg");
+  background-size: cover; }
+
+.carousel-image-5 {
+  background: url("../img/five.jpeg");
+  background-size: cover; }
+
+.carousel-image-6 {
+  background: url("../img/six.jpeg");
+  background-size: cover; }
+
+.position-one {
+  margin-bottom: 280px; }
+
+.position-two {
+  margin-bottom: 280px; }
+
+.position-three {
+  margin-bottom: 120px; }
+
+.position-four {
+  margin-bottom: 300px; }
+
+.position-five {
+  margin-bottom: 280px; }
+
+.position-six {
+  margin-bottom: 280px; }
+
+#showcase {
+  border-top: white 2px solid;
+  border-bottom: white 2px solid; }
+
+#contact {
+  border-top: #7c3f62 2px solid;
+  border-bottom: white 2px solid; }
+
+.footer {
+  opacity: 0.9; }
