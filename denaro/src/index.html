@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Denaro Currency Converter</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand logo">DENARO</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home-section" class="nav-link logo">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#currency-section" class="nav-link logo">CURRENCY CONVERTER</a>
+          </li>
+          <li class="nav-item">
+            <a href="#rate-section" class="nav-link logo">TODAY'S RATES</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--HOME SECTION-->
+  <header id="home-section">
+    <div class="dark-overlay">
+      <div class="home-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--WELCOME SECTION-->
+  <section id="welcome" class="bg-dark">
+    <div class="container">
+      <p class="sentence text-center pt-3 pb-1">WELCOME TO DENARO</p>
+      <p class="sentence text-center pb-3">YOUR CURRENCY CONVERTER</p>
+    </div>
+  </section>
+  <!---CURRENCY SECTION-->
+  <section id="currency-section" class="bg-secondary">
+    <div class="container ">
+      <div class="row m-3s">
+        <div class="col-md-12 m-5 p-5">
+          <div class="card-body p-2 logo">
+            <div class="card-body bg-dark text-white">
+              <h3 class="text-center pt-4">CONVERT MONEY</h3>
+              <hr>
+              <div class="row p-3">
+                <div class="col-md-8 p-3">
+                  <div class="input-group">
+                    <span class="input-group-addon bg-secondary"><i class="fa fa-money" aria-hidden="true"></i>
+                    </span>
+                    <input type="text" class="form-control" placeholder="FROM">
+                  </div>
+                </div>
+                <div class="col-md-4 p-3">
+                  <div class="form-group">
+                      <select class="custom-select bg-secondary">
+                          <option selected> CHOOSE CURRENCY</option>
+                          <option value="pln">PLN</option>
+                          <option value="eur">EUR</option>
+                          <option value="gbp">GBP</option>
+                          <option value="usd">USD</option>
+                        </select> 
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="input-group">
+                      <span class="input-group-addon bg-secondary"><i class="fa fa-money" aria-hidden="true"></i>
+                      </span>
+                    <input type="text" class="form-control" placeholder="TO">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                      <select class="custom-select bg-secondary">
+                          <option selected">CHOOSE CURRENCY</option>
+                          <option value="pln">PLN</option>
+                          <option value="eur">EUR</option>
+                          <option value="gbp">GBP</option>
+                          <option value="usd">USD</option>
+                        </select> 
+                  </div>
+                </div>
+              </div>
+              <div class="row p-3">
+                  <div class="col-md-6 p-3">
+                      <div class="form-group">
+                        <button class="btn btn-lg btn-block btn-secondary">CONVERT</button>
+                      </div>
+                    </div>
+                <div class="col-md-6 p-3">
+                  <div class="form-group">
+                    <button class="btn btn-lg btn-block btn-secondary">RESET</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer bg-secondary text-">
+                <h6 class="text-dark text-center">LAST UPDATED JAN 20, 2018 21:04</h6>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer id="main-footer " class="py-5 bg-dark text-white logo text-center footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ml-auto">
+          <p class="lead">COPYRIGHT &copy; 2018</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
