@@ -55,72 +55,114 @@
     </div>
   </section>
   <!---CURRENCY SECTION-->
-  <section id="currency-section" class="bg-secondary">
-    <div class="container ">
-      <div class="row m-3s">
-        <div class="col-md-12 m-5 p-5">
-          <div class="card-body p-2 logo">
-            <div class="card-body bg-dark text-white">
-              <h3 class="text-center pt-4">CONVERT MONEY</h3>
-              <hr>
-              <div class="row p-3">
-                <div class="col-md-8 p-3">
-                  <div class="input-group">
-                    <span class="input-group-addon bg-secondary"><i class="fa fa-money" aria-hidden="true"></i>
-                    </span>
-                    <input type="text" class="form-control" placeholder="FROM">
-                  </div>
-                </div>
-                <div class="col-md-4 p-3">
-                  <div class="form-group">
-                      <select class="custom-select bg-secondary">
-                          <option selected> CHOOSE CURRENCY</option>
-                          <option value="pln">PLN</option>
-                          <option value="eur">EUR</option>
-                          <option value="gbp">GBP</option>
-                          <option value="usd">USD</option>
-                        </select> 
-                  </div>
-                </div>
-                <div class="col-md-8">
-                  <div class="input-group">
-                      <span class="input-group-addon bg-secondary"><i class="fa fa-money" aria-hidden="true"></i>
-                      </span>
-                    <input type="text" class="form-control" placeholder="TO">
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="form-group">
-                      <select class="custom-select bg-secondary">
-                          <option selected">CHOOSE CURRENCY</option>
-                          <option value="pln">PLN</option>
-                          <option value="eur">EUR</option>
-                          <option value="gbp">GBP</option>
-                          <option value="usd">USD</option>
-                        </select> 
-                  </div>
+  <section id="currency-section">
+    <div class="container logo">
+      <div class="row m-3">
+        <div class="col-sm-12 m-5 p-5">
+          <div class="text-center text-dark bg-secondary p-2 font-weight-bold convert shadow">CONVERT MONEY</div>
+          <div class="card-body shadow bg-dark text-white">
+            <hr>
+            <div class="row p-3">
+              <div class="col-md-8 p-3">
+                <div class="input-group">
+                  <span class="input-group-addon bg-secondary">
+                    <i class="fa fa-money" aria-hidden="true"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="FROM">
                 </div>
               </div>
-              <div class="row p-3">
-                  <div class="col-md-6 p-3">
-                      <div class="form-group">
-                        <button class="btn btn-lg btn-block btn-secondary">CONVERT</button>
-                      </div>
-                    </div>
-                <div class="col-md-6 p-3">
-                  <div class="form-group">
-                    <button class="btn btn-lg btn-block btn-secondary">RESET</button>
-                  </div>
+              <div class="col-md-4 p-3">
+                <div class="form-group">
+                  <select class="custom-select bg-secondary">
+                    <option selected> CHOOSE CURRENCY</option>
+                    <option value="pln">PLN</option>
+                    <option value="eur">EUR</option>
+                    <option value="gbp">GBP</option>
+                    <option value="usd">USD</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="input-group">
+                  <span class="input-group-addon bg-secondary">
+                    <i class="fa fa-money" aria-hidden="true"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="TO">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <select class="custom-select bg-secondary">
+                    <option selected>CHOOSE CURRENCY</option>
+                    <option value="pln">PLN</option>
+                    <option value="eur">EUR</option>
+                    <option value="gbp">GBP</option>
+                    <option value="usd">USD</option>
+                  </select>
                 </div>
               </div>
             </div>
-            <div class="card-footer bg-secondary text-">
-                <h6 class="text-dark text-center">LAST UPDATED JAN 20, 2018 21:04</h6>
+            <div class="row p-3">
+              <div class="col-md-6 p-3">
+                <div class="form-group">
+                  <button class="btn btn-lg btn-block btn-secondary">CONVERT</button>
+                </div>
               </div>
+              <div class="col-md-6 p-3">
+                <div class="form-group">
+                  <button class="btn btn-lg btn-block btn-secondary">RESET</button>
+                </div>
+              </div>
+              <div class="col-md-3 p-3">
+                <div class="input-group">
+                  <span class="input-group-addon bg-secondary">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </span>
+                  <input type="date" class="form-control"></input>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-secondary shadow">
+            <h6 class="text-dark text-center">LAST UPDATED JAN 21, 2018 14:56</h6>
           </div>
         </div>
       </div>
     </div>
+    <!--TODAY'S RATES SECTION-->
+    <section id="rate-section">
+      <div class="container logo">
+        <div class="row m-3">
+          <div class="col-md-12 mr-5 ml-5 mb-5 mt-0 p-5">
+            <div class="text-center text-dark bg-secondary p-2 font-weight-bold convert shadow">TODAY'S RATES</div>
+            <div class="text-center text-white bg-dark pt-3 font-weight-bold convert">1 PLN =</div>
+            <div class="card-body logo bg-dark shadow">
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <img src=../img/eur.jpg alt="EU flag" width="38px" height="27px" class="float-left">
+                  <span class="float-left">EUR</span>
+                  <span class="float-right">4,1750</span>
+                </li>
+                <li class="list-group-item">
+                  <img src=../img/usa.jpg alt="USA flag" width="38px" height="27px" class="float-left">
+                  <span class="float-left">USD</span>
+                  <span class="float-right">3,3994</span>
+                </li>
+                <li class="list-group-item">
+                  <img src=../img/uk.png alt="UK flag" width="38px" height="27px" class="float-left">
+                  <span class="float-left">GBP</span>
+                  <span class="float-right">4,7301</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer bg-secondary shadow">
+              <h6 class="text-dark text-center">LAST UPDATED JAN 21, 2018 14:56</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </section>
   <footer id="main-footer " class="py-5 bg-dark text-white logo text-center footer">
@@ -135,7 +177,15 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(document).on('click', 'a[href^="#"]', function (event) {
+      event.preventDefault();
 
+      $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, 500);
+    });
+  </script>
 </body>
 
 </html>

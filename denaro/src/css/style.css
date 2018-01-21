@@ -1,15 +1,15 @@
 .logo {
-  font-family: 'Syncopate', sans-serif; }
+  font-family: "Syncopate", sans-serif; }
 
 .navbar {
-  opacity: 0.9;
+  opacity: 0.8;
   border-bottom: #261602 2px solid; }
 
 #home-section {
   background: url("../img/map1.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 450px; }
+  min-height: 100px; }
 
 .dark-overlay {
   background-color: rgba(0, 0, 0, 0.2);
@@ -17,19 +17,20 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 450px; }
+  min-height: 290px; }
 
 .sentence {
-  font-family: 'Syncopate', sans-serif;
+  font-family: "Syncopate", sans-serif;
   color: white;
-  font-size: 2rem;
-  text-shadow: 2px 5px 4px rgba(44, 41, 32, 0.7);
-  opacity: 0.8; }
+  font-size: 2.5rem;
+  text-shadow: 2px 5px 4px rgba(44, 41, 32, 0.7); }
 
 #welcome {
-  border-bottom: #2d1e0b 2px solid;
-  border-top: #2d1e0b 2px solid;
-  min-height: 160px; }
+  border-bottom: #2d1e0b 5px solid;
+  min-height: 100px;
+  background: url("../img/map1.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 #currency-section {
   border-bottom: #2d1e0b 2px solid;
@@ -38,3 +39,9 @@
   background: url("../img/four.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed; }
+
+.convert {
+  font-size: 1.5rem; }
+
+.shadow {
+  -webkit-box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.61); }
